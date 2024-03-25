@@ -11,6 +11,8 @@ fun main() {
     println(array.count())
     println(array.sum()/array.count())
 
+    isPalindrome(word = "mayday")
+
 
 }
 
@@ -33,11 +35,12 @@ fun sphere(){
 }
 
 fun isPalindrome(word:String):Boolean{
-    if word==word.reversed()
-    println(true)
+    if (word==word.reversed())
+    return(true)
     else{
-        println(false)
+        return(false)
     }
+
 }
 
 

@@ -4,7 +4,7 @@ import kotlin.time.times
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
 //    println(listOf({statement}))
-//    sentence(statement="")
+   sentence(statement="Barnie bakes brown bagels and bun")
 
     var array= arrayOf(10,20,30,40)
     println(array.sum())
@@ -17,7 +17,8 @@ fun main() {
 }
 
 fun sentence(statement:String){
-    var statement="Barnie bakes brown bagels and buns"
+    var example= statement
+    var word1= (example.split("b"))
 
 
 }
